@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+     <title>BRAINHACK</title>
+     <meta charset="utf-8"/>
+     <style type="text/css">
+          #canvas1{background-color:#FFD600;}
+	
+     div {
+    background-color:#FFD600;
+       }
+  
+	input[type=text] {
+    width: 20%;
+    padding: 9px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+	border: 2px solid red;
+    border-radius: 4px;
+    }
+    input { font-size: 20px; }
+  	
+     </style>
+	<script src="jquery-1.9.1.js"></script>	 
+</head>
+<body>
+<div>
+<br>
+
+   <p align=center><b><font face="verdana"  size="20" color="rgba(0,200,0,1)"> Graph Coloring</font> </b> </p>
+
+<br>
+
+  <p align=center>
+          <label><font size="6" >Team name  :  </font></label>
+          <input type = "text"
+                 id = "team_name" />
+  </p>	
+  
+  <p> <font face="verdana"  size="5" ><b>&nbsp&nbsp&nbsp&nbsp&nbsp----   INSTRUCTIONS   ----</b></font>
+  <br><br>
+  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<font face="Lucida Sans Unicode"  size="5" ><b>1.&nbsp&nbsp&nbsp Color the nodes of the graph with different colors such that no two adjacent nodes have the same color.</b></font><br>
+  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<font face="Lucida Sans Unicode"  size="5" ><b>2.&nbsp&nbsp&nbspClick consecutively on a node for selection of different colors.</b></font><br>
+  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<font face="Lucida Sans Unicode"  size="5" ><b>3.&nbsp&nbsp&nbspYou have to color the graph with the<b> MINIMUM </b>possible colors.</b></font><br>
+  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<font face="Lucida Sans Unicode"  size="5" ><b>4.&nbsp&nbsp&nbspOnce done,click on the submit button.</b></font><br>
+  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<font face="Lucida Sans Unicode"  size="5" ><b>5.&nbsp&nbsp&nbspIn case of tie, <b>MINIMUM</b> no of moves will be considered.</b></font><br>
+  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<font face="Lucida Sans Unicode"  size="5" ><b>6.&nbsp&nbsp&nbspDo not refresh the page.</b></font><br>
+  <br>
+  <br>
+  
+  
+  </p> 
+     
+ </div> 
+<canvas id="canvas1" width="2000" height="800">
+</canvas>
+
+	 <script src="graph_coloring.js">
+	 </script>
+	 <script type="text/javascript" src="timer.js"></script> 
+
+</body>
+</html>
+
+
+
+
+
+
+
